@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Roboto", sans-serif;
+  color: #091e42;
+  font-size: 16px;
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+}
+
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 400px;
+  padding: 100px 20vw;
+}
+
+.blue {
+  background: #3c31dd;
+}
+
+.red {
+  background: #dd3f31;
+}
+
+.pink {
+  background: #ff0066;
+}
+
+.dark {
+  background: #0f0f10;
+}
