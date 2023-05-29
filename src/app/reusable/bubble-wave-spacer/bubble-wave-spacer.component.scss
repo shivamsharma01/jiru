@@ -1,0 +1,27 @@
+.bubble {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.bubble svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 76px;
+}
+
+@media (min-width: 769px) {
+  .bubble svg {
+    height: 120px;
+  }
+}
+
+@media (min-width: 993px) {
+  .bubble svg {
+    height: 180px;
+  }
+}
